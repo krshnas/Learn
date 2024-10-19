@@ -1,0 +1,29 @@
+[
+    {
+      "httpRequest": {
+        "method": "POST",
+        "path": "/register"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": "{\"message\": \"Registration successful\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "httpRequest": {
+        "method": "GET",
+        "path": "/status"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": "{\"status\": \"Server is running\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+  
